@@ -1,5 +1,8 @@
 <resources>
     <string name="app_name">SMARTHOME</string>
+    <string name="login_input">login</string>
+    <string name="password_input">password</string>
+    <string name="login_btn">login</string>
 
 
 
