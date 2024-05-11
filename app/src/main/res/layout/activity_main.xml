@@ -11,13 +11,11 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="80dp"
-        android:layout_="0dp"
         android:orientation="horizontal">
 
         <ImageView
             android:layout_width="50dp"
             android:layout_height="50dp"
-            android:gravity="right"
             android:layout_marginTop="17dp"
             android:src="@drawable/baseline_toc_black_24dp" />
 
@@ -86,15 +84,18 @@
                 android:layout_marginLeft="48dp"
                 android:src="@drawable/baseline_device_thermostat_black_24dp" />
 
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="temp"
-                android:textAlignment="center"
-                android:textColor="@color/black"
-                android:textSize="20sp"
-                android:layout_marginLeft="50dp"
-                android:textStyle="bold" />
+            <Button
+                android:id="@+id/Temp_Btn"
+                android:background="@drawable/rounded_corner"
+                android:layout_width="78dp"
+                android:layout_height="50dp"
+                android:gravity="center"
+                android:textColor="@color/white"
+                android:layout_marginLeft="35dp"
+                android:text="Temp"
+                android:textStyle="bold">
+
+            </Button>
 
 
         </LinearLayout>
@@ -113,15 +114,19 @@
                 android:layout_height="50dp"
                 android:layout_marginLeft="48dp"
                 android:src="@drawable/baseline_sensor_door_black_24dp"/>
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+
+            <Button
+                android:id="@+id/Door_Btn"
+                android:layout_width="78dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="35dp"
+                android:background="@drawable/rounded_corner"
+                android:gravity="center"
                 android:text="Door"
-                android:textAlignment="center"
-                android:textColor="@color/black"
-                android:textSize="20sp"
-                android:layout_marginLeft="50dp"
-                android:textStyle="bold" />
+                android:textColor="@color/white"
+                android:textStyle="bold">
+
+            </Button>
 
 
         </LinearLayout>
@@ -146,15 +151,18 @@
                 android:layout_marginLeft="48dp"
                 android:src="@drawable/baseline_light_black_24dp"/>
 
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+            <Button
+                android:id="@+id/Light_Btn"
+                android:layout_width="78dp"
+                android:layout_height="50dp"
+                android:gravity="center"
+                android:background="@drawable/rounded_corner"
+                android:textColor="@color/white"
+                android:layout_marginLeft="35dp"
                 android:text="Light"
-                android:textAlignment="center"
-                android:textColor="@color/black"
-                android:textSize="20sp"
-                android:layout_marginLeft="50dp"
-                android:textStyle="bold" />
+                android:textStyle="bold">
+
+            </Button>
 
 
         </LinearLayout>
@@ -174,15 +182,18 @@
                 android:layout_marginLeft="48dp"
                 android:src="@drawable/baseline_sensors_black_24dp"/>
 
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginLeft="15dp"
-                android:text="Detection on"
-                android:textAlignment="center"
-                android:textColor="@color/black"
-                android:textSize="20sp"
-                android:textStyle="bold" />
+            <Button
+                android:id="@+id/Sensor_Btn"
+                android:layout_width="95dp"
+                android:layout_height="50dp"
+                android:gravity="center"
+                android:background="@drawable/rounded_corner"
+                android:textColor="@color/white"
+                android:layout_marginLeft="25dp"
+                android:text="Sensor"
+                android:textStyle="bold">
+
+            </Button>
 
 
         </LinearLayout>
@@ -209,16 +220,18 @@
                 android:layout_marginLeft="48dp"
                 android:src="@drawable/baseline_emergency_recording_black_24dp"/>
 
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginLeft="40dp"
+            <Button
+                android:id="@+id/Record_Btn"
+                android:layout_width="95dp"
+                android:layout_height="50dp"
+                android:gravity="center"
+                android:background="@drawable/rounded_corner"
+                android:textColor="@color/white"
+                android:layout_marginLeft="25dp"
                 android:text="Record"
-                android:textAlignment="center"
-                android:textColor="@color/black"
-                android:textSize="20sp"
-                android:textStyle="bold" />
+                android:textStyle="bold">
 
+            </Button>
 
         </LinearLayout>
 
@@ -237,15 +250,18 @@
                 android:layout_marginLeft="48dp"
                 android:src="@drawable/baseline_rectangle_black_24dp"/>
 
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginLeft="52dp"
+            <Button
+                android:id="@+id/Lcd_Btn"
+                android:layout_width="78dp"
+                android:layout_height="50dp"
+                android:gravity="center"
+                android:background="@drawable/rounded_corner"
+                android:textColor="@color/white"
+                android:layout_marginLeft="35dp"
                 android:text="LCD"
-                android:textAlignment="center"
-                android:textColor="@color/black"
-                android:textSize="20sp"
-                android:textStyle="bold" />
+                android:textStyle="bold">
+
+            </Button>
 
 
 
@@ -254,14 +270,5 @@
 
     </LinearLayout>
 
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="80dp"
-        android:layout_="0dp"
-        android:layout_marginTop="60dp"
-        android:background="@color/green"
-        android:orientation="horizontal">
 
-
-    </LinearLayout>
 </LinearLayout>

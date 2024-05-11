@@ -56,11 +56,5 @@
             android:id="@+id/login_btn"/>
 
 
-
-
-
     </LinearLayout>
-
-
-
 </LinearLayout>
